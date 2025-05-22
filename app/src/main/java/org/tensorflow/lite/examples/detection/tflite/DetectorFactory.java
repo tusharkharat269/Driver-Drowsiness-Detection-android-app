@@ -38,7 +38,7 @@ public class DetectorFactory {
 
     // Configuration for drowsiness model
     private static final ModelConfig DROWSINESS_CONFIG = new ModelConfig(
-            "keggle-model_float32.tflite",
+            "model-2-float32.tflite",
             640,
             new String[]{"drowsy", "active", "yawning"},
             7,

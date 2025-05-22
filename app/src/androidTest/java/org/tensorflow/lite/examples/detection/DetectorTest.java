@@ -51,8 +51,8 @@ public class DetectorTest {
 
   private static final int MODEL_INPUT_SIZE = 416;
   private static final boolean IS_MODEL_QUANTIZED = true;
-  private static final String MODEL_FILE = "final_last_yolo11_float16.tflite";
-  private static final String LABELS_FILE = "file:///android_asset/yolo11classes.txt";
+  private static final String MODEL_FILE = "final_last_yolo11_float32.tflite";
+  private static final String LABELS_FILE = "file:///android_asset/model2.txt";
   private static final Size IMAGE_SIZE = new Size(416, 416);
 
   private Classifier detector;
